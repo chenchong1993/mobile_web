@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/theme.css"/>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script type="text/javascript" charset="utf-8">
+        mui.init();
+    </script>
+</head>
+<body>
+<header class="mui-bar mui-bar-nav theme-bgcolor">
+  <i class="mui-icon mui-icon-bars mui-pull-left white-color"></i>
+    <h1 class="mui-title white-color">
+      <div id="segmentedControl" class="mui-segmented-control mui-segmented-control-inverted mui-segmented-control-primary">
+        <a class="mui-control-item mui-active" href="#item1">
+          位置服务
+        </a>
+        <a class="mui-control-item" href="#item2">
+          安全监控
+        </a>
+        <a class="mui-control-item" href="#item3">
+          应急救援
+        </a>
+      </div>
+    </h1>
+    <i class="mui-icon mui-icon-plusempty mui-pull-right white-color"></i>
+</header>
+
+<div class="mui-content">
+	
+    <div class="mui-input-row mui-search mui-input-speech index-search theme-bgcolor">
+      <input type="search" class="mui-input-clear" placeholder="搜索">
+    </div>
+    <!--<div id="slider" class="mui-slider">-->
+    <div>
+        <div id="item1" class="mui-control-content mui-active">
+
+        </div>
+        <div id="item2" class="mui-control-content">
+          <div id="slider" class="mui-slider">
+            <div class="mui-slider-group mui-slider-loop">
+              <!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+              <div class="mui-slider-item mui-slider-item-duplicate">
+                <a href="#">
+                  <img src="http://imge.kugou.com/mobilebanner/20180204/20180204233642601600.jpg">
+                </a>
+              </div>
+              <!-- 第一张 -->
+              <div class="mui-slider-item">
+                <a href="#">
+                  <img src="http://m.kugou.com/v3/static/images/index/banner.jpg">
+                </a>
+              </div>
+              <!-- 第二张 -->
+              <div class="mui-slider-item">
+                <a href="#">
+                  <img src="http://imge.kugou.com/mobilebanner/20180207/20180207141715960157.jpg">
+                </a>
+              </div>
+              <!-- 第三张 -->
+              <div class="mui-slider-item">
+                <a href="#">
+                  <img src="http://imge.kugou.com/mobilebanner/20180205/20180205225955701975.jpg">
+                </a>
+              </div>
+              <!-- 第四张 -->
+              <div class="mui-slider-item mui-active">
+                <a href="#">
+                  <img src="http://imge.kugou.com/mobilebanner/20180204/20180204233642601600.jpg">
+                </a>
+              </div>
+              <!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+              <div class="mui-slider-item mui-slider-item-duplicate">
+                <a href="#">
+                  <img src="http://m.kugou.com/v3/static/images/index/banner.jpg">
+                </a>
+              </div>
+            </div>
+            <div class="mui-slider-indicator">
+              <div class="mui-indicator"></div>
+              <div class="mui-indicator"></div>
+              <div class="mui-indicator"></div>
+              <div class="mui-indicator mui-active"></div>
+            </div>
+          </div>
+          <div class="index-hall">
+            <ul class="index-hall-box zyw-ul white-bgcolor">
+              <li class="zyw-li-item">
+                <img src="img/hall-1.svg"/>
+                <p>歌手</p>
+              </li>
+              <li class="zyw-li-item">
+                <img src="img/hall-2.svg"/>
+                <p>排行</p>
+              </li>
+              <li class="zyw-li-item">
+                <img src="img/hall-3.svg"/>
+                <p>分类歌单</p>
+              </li>
+              <li class="zyw-li-item">
+                <img src="img/hall-4.svg"/>
+                <p>电台</p>
+              </li>
+              <li class="zyw-li-item">
+                <img src="img/hall-5.svg"/>
+                <p>视频</p>
+              </li> 
+            </ul>
+          </div>
+          <ul class="hall-class mui-clearfix">
+            <li class="hall-class-l">
+                <a>
+                    <img src="https://y.gtimg.cn/music/photo/radio/track_radio_199_13_1.jpg" alt="">
+                    <div class="class-text">
+                      <img src="img/music-start.svg"/>
+                      <p class="white-color">个性电台</p>
+                    </div>
+                </a>
+            </li>
+            <li class="hall-class-r">
+                <a>
+                    <img src="img/hall-class-2.jpg"/>
+                </a>
+                <a>
+                    <img src="img/hall-class-3.jpg"/>
+                </a>
+            </li>
+          </ul>
+          <div class="hall-grom">
+              <h5>为你推荐歌单<img src="img/more.svg" alt="" class="grom-more"></h5>
+              <ul class="mui-table-view mui-grid-view">
+                  <li class="mui-table-view-cell mui-media mui-col-xs-4">
+                      <a href="#">
+                          <img class="mui-media-object" src="https://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_4_300_213023435.jpg?max_age=2592000">
+                          <div class="mui-media-body">幸福就是可以一起睡觉</div></a></li>
+                  <li class="mui-table-view-cell mui-media mui-col-xs-4">
+                      <a href="#">
+                          <img class="mui-media-object" src="https://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_26_300_212606735.jpg?max_age=2592000">
+                          <div class="mui-media-body">想要一间这样的木屋，静静的喝咖啡</div></a></li>
+                  <li class="mui-table-view-cell mui-media mui-col-xs-4">
+                      <a href="#"><img class="mui-media-object" src="https://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_27_300_213023435.jpg?max_age=2592000">
+                          <div class="mui-media-body">Color of SIP CBD</div></a></li>
+                  <li class="mui-table-view-cell mui-media mui-col-xs-4">
+                      <a href="#">
+                          <img class="mui-media-object" src="https://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_33_300_213023237.jpg?max_age=2592000">
+                          <div class="mui-media-body">静静看这世界</div></a></li>
+                  <li class="mui-table-view-cell mui-media mui-col-xs-4">
+                      <a href="#"><img class="mui-media-object" src="https://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_30_300_212846879.jpg?max_age=2592000">
+                          <div class="mui-media-body">Color of SIP CBD</div></a></li>
+                  <li class="mui-table-view-cell mui-media mui-col-xs-4">
+                      <a href="#">
+                          <img class="mui-media-object" src="https://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_5_300_213023435.jpg?max_age=2592000">
+                          <div class="mui-media-body">静静看这世界</div></a></li>
+              </ul>    
+          </div>
+        </div>
+        <div id="item3" class="mui-control-content">
+          <div class="singer-dynamic">
+            <span class="dynamic-hd theme-bgcolor">歌手动态</span>
+            <div class="dynamic-bd">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide"><div class="dynamic-img"><img src="img/singer-1.jpg" alt=""></div><p class="dynamic-text">周杰伦</p></div>
+                <div class="swiper-slide"><div class="dynamic-img"><img src="img/singer-2.jpg" alt=""></div><p class="dynamic-text">张碧晨</p></div>
+                <div class="swiper-slide"><div class="dynamic-img"><img src="img/singer-3.jpg" alt=""></div><p class="dynamic-text">林俊杰</p></div>
+                <div class="swiper-slide"><div class="dynamic-img"><img src="img/singer-4.jpg" alt=""></div><p class="dynamic-text">田馥甄</p></div>
+                <div class="swiper-slide"><div class="dynamic-img"><img src="img/singer-5.jpg" alt=""></div><p class="dynamic-text">鹿晗</p></div>
+                <div class="swiper-slide"><div class="dynamic-img"><img src="img/singer-6.jpg" alt=""></div><p class="dynamic-text">玖月奇迹</p></div>
+                <div class="swiper-slide"><div class="dynamic-img"><img src="img/singer-7.jpg" alt=""></div><p class="dynamic-text">周笔畅</p></div>
+              </div>
+            </div>
+          </div>
+          <ul class="find-article mui-table-view">
+            <li class="mui-table-view-cell mui-media find-article-item">
+              <div class="article-hd clearfix">
+                <div class="hd-img mui-pull-left">
+                  <img src="img/myimg.jpg" alt="">
+                  <i class="coll"></i>
+                </div>
+                <p class="mui-pull-left">唱片评审团<span>发布文章</span></p>
+              </div>
+              <div class="article-bd clearfix">
+                <a href="javascript:;">
+                  <img class="mui-media-object mui-pull-right" src="https://p.qpic.cn/music_cover/icLTHicH8iakBFAJbiazGT3Dn22uh3ToupNYCIjJmmmVaia366Teib7EQmfQ/300?n=1">
+                  <div class="mui-media-body">
+                    唱片评审团|倾听徐佳莹近乎完美的研心之作
+                    <p class="mui-ellipsis">从专辑名看来，徐佳莹这次是想用音乐来一次心灵的探索吧？专辑中的每一首歌经她特别的声线演绎出不一样的韵味。</p>
+                  </div>
+                </a>
+              </div>
+              <div class="article-fd clearfix">
+                <span class="theme-color fd-l">最新推荐</span>
+                <div class="mui-pull-right">
+                  <span class="fd-r">3 <img src="img/comment.png" alt=""></span>
+                  <span class="fd-r">82 <img src="img/zan.png" alt=""></span>
+                </div>
+              </div>
+            </li>
+            <li class="mui-table-view-cell mui-media find-article-item">
+              <div class="article-hd clearfix">
+                <div class="hd-img mui-pull-left">
+                  <img src="img/singer-5.jpg" alt="">
+                  <i class="coll"></i>
+                </div>
+                <p class="mui-pull-left">皮皮鸭<span>发布文章</span></p>
+              </div>
+              <div class="article-bd clearfix">
+                <a href="javascript:;">
+                  <img class="mui-media-object mui-pull-right" src="https://p.qpic.cn/music_cover/CJ35Z2cnZA0kWwtIMrxsbuKR8wpK4MqYAb0ibIicsuPN4yCkOIwHMpmg/300?n=1">
+                  <div class="mui-media-body">
+                    听薛凯琪用五首歌教会你闺蜜间的爱与感动
+                    <p class="mui-ellipsis">薛凯琪说：闺蜜是神给我的礼物。</p>
+                  </div>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <!--</div>-->
+</div>
+<script src="js/swiper.min.js"></script>
+<script>
+    var swiper = new Swiper('.dynamic-bd', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>
